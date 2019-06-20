@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Project Timeline",
+  "name": "Creating a timeline for my personal projects",
   "icons": [
     {
       "src": "favicon.ico",
