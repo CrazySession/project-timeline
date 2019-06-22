@@ -11,7 +11,7 @@ const Projects = () => {
                 <br/><br/>
                 { proj.description }
                 <br/><br/>
-                { proj.usedTechnics }
+                <b>{ proj.usedTechnics }</b>
                 <br/><br/>
                 First Deployment : { proj.firstUpload }
                 <br/><br/>
