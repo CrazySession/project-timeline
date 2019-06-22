@@ -3,6 +3,7 @@ export const projects = [
         projectnumber   : '1',
         projectName     : 'swapiApi',
         url             : 'https://crazysession.github.io/swapiapi/',
+        sourceURL       : 'https://github.com/CrazySession/swapiapi',
         description     : 'Just displaying some StarWars Facts with help of an api',
         screenshots     : ['one','two'],
         usedTechnics    : ['HTML ','CSS ','Javascript ','React '],
@@ -13,6 +14,7 @@ export const projects = [
         projectnumber   : '2',
         projectName     : 'guessthenumber',
         url             : 'https://crazysession.github.io/guessthenumber/',
+        sourceURL       : 'https://github.com/CrazySession/guessthenumber',
         description     : 'Little guess the number game with some random Fonts and Victory Pics',
         screenshots     : ['one','two'],
         usedTechnics    : ['HTML ','CSS ','Javascript ','React ','Redux '],
@@ -23,9 +25,10 @@ export const projects = [
         projectnumber   : '3',
         projectName     : 'project-timeline',
         url             : '#',
+        sourceURL       : 'https://github.com/CrazySession/project-timeline',
         description     : 'Timeline for all my created and deployed Projects',
         screenshots     : ['one','two'],
-        usedTechnics    : ['HTML ','CSS ','Javascript ','React '],
+        usedTechnics    : ['HTML ','CSS ','Bootstrap ','Javascript ','React '],
         firstUpload     : 'xx-xx-xxxx',
         lastUpdate      : 'xx-xx-xxxx'
     }

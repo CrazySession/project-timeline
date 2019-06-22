@@ -6,17 +6,41 @@ const Projects = () => {
     const createdProjects = projects.map((proj) => {
         return (
             <div key={proj.projectnumber}>
-                <h2>{ proj.projectName }</h2> <hr />
-                Url  :  <a href={ proj.url } target='_blank' rel='noopener noreferrer' >{ proj.url }</a>
-                <br/><br/>
-                { proj.description }
-                <br/><br/>
-                <b>{ proj.usedTechnics }</b>
-                <br/><br/>
-                First Deployment : { proj.firstUpload }
-                <br/><br/>
-                Last Update : { proj.lastUpdate }
-                <br/><br/><br/>
+                <div className="card mb-3" style={{ maxWidth: '540px' }}>
+                    <div className="row no-gutters">
+                        <div className="col-md-4">
+                            <img src="#" className="card-img" alt="..." />
+                        </div>
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h5 className="card-title">{ proj.projectName }</h5>
+                                <p className="card-text">{ proj.description }</p>
+                                <p className="card-text">
+                                    <small className="text-muted">
+                                    First Deployment : { proj.firstUpload }
+                                    <br/>
+                                    Last Update : { proj.lastUpdate }</small></p>
+                                    <a href={ proj.url }
+                                       target='_blank'
+                                       rel='noopener noreferrer'
+                                       className="btn btn-primary">View Live Project</a>
+                                    <a href={ proj.sourceURL }
+                                       style={{marginLeft: '5px'}}
+                                       target='_blank'
+                                       rel='noopener noreferrer'
+                                       className="btn btn-primary">View Source Code</a>
+                                <br /><br />
+                                    <p className="card-text">
+                                        <small className="text-muted">
+                                            <b>
+                                                { proj.usedTechnics }
+                                            </b>
+                                        </small>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     });
