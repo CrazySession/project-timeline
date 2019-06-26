@@ -33,7 +33,7 @@ export const projects = [
         description     : 'Timeline for all my created and deployed Projects',
         screenshots     : [ projectTimeline ,'two'],
         usedTechnics    : ['HTML ','CSS ','Bootstrap ','Javascript ','React '],
-        firstUpload     : 'xx-xx-xxxx',
-        lastUpdate      : 'xx-xx-xxxx'
+        firstUpload     : '06-26-2019',
+        lastUpdate      : '06-26-2019'
     }
 ];
