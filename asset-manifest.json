@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/project-timeline/static/js/main.3ec44f13.chunk.js",
+    "main.js.map": "/project-timeline/static/js/main.3ec44f13.chunk.js.map",
+    "runtime~main.js": "/project-timeline/static/js/runtime~main.05b10b15.js",
+    "runtime~main.js.map": "/project-timeline/static/js/runtime~main.05b10b15.js.map",
+    "static/js/2.479fc036.chunk.js": "/project-timeline/static/js/2.479fc036.chunk.js",
+    "static/js/2.479fc036.chunk.js.map": "/project-timeline/static/js/2.479fc036.chunk.js.map",
+    "index.html": "/project-timeline/index.html",
+    "precache-manifest.81ec648990fb683208f360a93d838497.js": "/project-timeline/precache-manifest.81ec648990fb683208f360a93d838497.js",
+    "service-worker.js": "/project-timeline/service-worker.js",
+    "static/media/guessthenumber.jpg": "/project-timeline/static/media/guessthenumber.135e88b0.jpg",
+    "static/media/project-timeline.jpg": "/project-timeline/static/media/project-timeline.0e385552.jpg",
+    "static/media/swapiapi.jpg": "/project-timeline/static/media/swapiapi.4a3e4aa1.jpg"
+  }
+}
